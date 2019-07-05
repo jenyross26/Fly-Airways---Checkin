@@ -3,7 +3,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Style for LOGIN page */
+/* ----------Style for LOGIN page---------- */
 
 .index {
     background-color: #56AEBF;
@@ -65,7 +65,7 @@ img.logo {
   color:white;
 }
 
-/* style for myflights page */
+/* ----------style for myflights page---------- */
 
 .home{
   background-color: white;
@@ -142,7 +142,7 @@ img.logo {
   padding-top: 5px;
 }
 
-/* style for checkin page */
+/* ----------style for checkin page---------- */
 
 .home header{
   display: none;
@@ -250,7 +250,7 @@ img.logo {
   font-size: 16px;
 }
 
-/* style for flight details page */
+/* ----------style for flight details page---------- */
 
 .note{
   padding: 10px;
@@ -259,7 +259,7 @@ img.logo {
   font-size: 90%;
 }
 
-/* style for baggage policies page */
+/* ----------style for baggage policies page---------- */
 .policy{
   font-size: 20px;
   margin-left: 15px;
@@ -336,7 +336,7 @@ img.logo {
   margin-bottom: 0;
 }
 
-/* style for policies page */
+/* ----------style for policies page---------- */
 
 .bpol{
   font-size: 13px;
@@ -361,7 +361,7 @@ img.logo {
   padding: 5px;
 }
 
-/* style for checkin2 page */
+/* ----------style for checkin2 page---------- */
 
 .vbp{
   background-color: #ADABAB;
@@ -387,7 +387,7 @@ img.logo {
   margin-top: 30px;
 }
 
-/* style for payment pages */
+/* ----------style for payment pages---------- */
 
 .gtotal{
   background-color: #CDFFEB;
@@ -501,7 +501,7 @@ img.logo {
   height: 174px;
 }
 
-/* style for boarding pass */
+/* ----------style for boarding pass---------- */
 
 .bpass{
   background-color:#288E89;
@@ -563,7 +563,7 @@ img.logo {
   background-color: #ADABAB;
 }
 
-/* style add ons page */
+/* ----------style add ons page------------ */
 
 .addons1{
   background-color: #CDFFEB;
@@ -658,7 +658,7 @@ img.logo {
   margin-right: 5%;
 }
 
-/* style main page */
+/* ----------style main page---------- */
 
 .you{
   line-height: 75px;
@@ -765,7 +765,7 @@ img.logo {
   background-color: #ADABAB;
 }
 
-/* where to board page */
+/* ----------where to board page---------- */
 
 .naia{
   line-height: 78px;
@@ -801,7 +801,7 @@ img.logo {
   
 }
 
-  /* Style for signup page */
+/* ----------Style for signup page----------*/
   
   .signup1{
     background-color: #009F9D;
@@ -823,7 +823,7 @@ img.logo {
 
 
 
-  /* -----------------------Style for DESKTOP VIEW---------------------- */
+/* -----------------------Style for DESKTOP VIEW---------------------- */
 
 
 
@@ -832,7 +832,7 @@ img.logo {
 
 @media only screen and (min-width: 800px) {
 
-  /* Style for LOGIN page */
+/* -----------Style for LOGIN page---------- */
 
 .index{
   background-image: url("images/bg.jpg");
@@ -964,7 +964,7 @@ color: white;
   padding-left: 900px;
 }
 
-/* style for myflights page */
+/* ----------style for myflights page---------- */
 
 .home{
   background-image: url("images/bg.jpg");
@@ -1012,7 +1012,7 @@ color: white;
   color:white;
 }
 
-/* style for checkin page */
+/* ----------style for checkin page---------- */
 
 .fd h3, h4, h5{
   padding-left: 200px;
@@ -1039,13 +1039,13 @@ color: white;
   opacity: 0.7;
 }
 
-/* style for flight details page */
+/* ----------style for flight details page---------- */
 
 .note{
   color:white;
 }
 
-/* style for baggage policies page */
+/* -----------style for baggage policies page---------- */
 
 .img-bp{
   width: 200px;
@@ -1086,7 +1086,7 @@ color: white;
   padding: 10px;
 }
 
-/* style main page */
+/* ----------style main page--------- */
 
 .you{
   color: white; 
@@ -1123,7 +1123,7 @@ color: white;
   margin-bottom: 0;
 }
 
-/* where to board page */
+/* ---------where to board page---------- */
 
 .naia{
   line-height: 78px;
@@ -1142,14 +1142,14 @@ color: white;
   height: 70px;
 }
 
-/* style for boarding pass */
+/* ----------style for boarding pass---------- */
 
 .bpass{
   opacity:0.8;
   border-radius: 15px;
 }
 
-  /* Style for signup page */
+/* -----------Style for signup page--------- */
   
   .signup1{
     opacity:0.8;
@@ -1159,7 +1159,7 @@ color: white;
     background-color: #03353F;
   }
 
-  /* style add ons page */
+/* ---------style add ons page---------- */
 
 .addons1 div table{
   margin-left: 20%;
@@ -1175,7 +1175,7 @@ color: white;
   font-size: 20px;
   text-align: center;
 }
-/* style for payment pages */
+/* ---------style for payment pages--------- */
 
 .gtotal{
   background: none;
