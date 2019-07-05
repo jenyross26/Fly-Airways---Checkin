@@ -1,0 +1,1242 @@
+*{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for LOGIN page */
+
+.index {
+    background-color: #56AEBF;
+    margin: 0, auto;
+    width: 100%;
+}
+.index header{
+  display: none;
+}
+.index footer{
+  display:none;
+}
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 12px 17px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+button {
+  background-color: #009F9D;
+  color: white;
+  padding: 14px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 17px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #03353F;
+}
+.imglogo {
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 20px, auto;
+}
+img.logo {
+  width: 55%;
+}
+.container {
+  padding:20px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+.psw {
+  float: right;
+  padding-right: 30px;
+  text-decoration: none;
+  color:white;
+}
+.signup {
+  float: left;
+  padding-left: 40px;
+  text-decoration: none;
+  color:white;
+}
+
+/* style for myflights page */
+
+.home{
+  background-color: white;
+  margin: 0, auto;
+  align-self: center;
+}
+.home header{
+  display: none;
+}
+.home footer{
+  display:none;
+}
+.hiuser{
+  background-color: #91DABD;
+  line-height: 89px;
+  font-size: 20px; 
+  padding-left: 5px; 
+}
+.lo{
+  padding-right: 30px;
+  padding top:0;  
+  padding bottom:0;
+  float: right;
+  text-align: center;
+}
+.hiuser div h1{
+  padding-right: 0;
+  width: 70%;
+}
+.hiuser div button{
+  color: #03353F;
+  background:none;
+  padding:0;
+  width: 29px;
+  height:32px;
+  float: right;
+}
+.hiuser div button img{
+  width:29px;
+  height: 32px;
+  float: right;
+}
+.hiuser div button p{
+  font-size: 12px;
+  text-align: center;
+}
+.myflights{
+  line-height: 78px;
+  margin-left: 5px;
+  font-size: 25px;
+  color:#03353F;
+}
+.CI {
+  float: right;
+  width: 40%;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.list{
+  background-color: #CDFFEB;
+  margin:5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.fnum{
+  font-size: 22px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.list p{
+  padding-left: 10px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+/* style for checkin page */
+
+.home header{
+  display: none;
+}
+.home footer{
+  display:none;
+}
+.backbtn{
+  float: right;
+  width:33px;
+  background: none;
+  padding-right: 55px;
+  padding-top: 0;
+  margin-top: 20px;
+}
+.backbtn img{
+  width:33px;
+  height:33px;
+}
+.backbtn p{
+  font-size: 12px;
+  color: #03353F;
+}
+.fd{
+  background-color: #CDFFEB;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding-left: 10px;
+}
+.fd h3{
+  font-size: 21px;
+  line-height: 24px;
+  padding-bottom: 2px;
+  padding-top: 15px;
+}
+.fd h4{
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 2px;
+  padding-top: 5px;
+}
+.fd h5{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.place{
+  text-align:center;
+}
+.heading{
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 15px 5px;
+  color: #03353F; 
+}
+.booking{
+  content: normal;
+  margin-left: 20px;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.booking tr td{
+  border: 2px solid black;
+  padding: 5px;
+  padding-right: 10px;
+}
+.passenger{
+  margin-left: 20px;
+}
+.addons{
+  background-color: #CDFFEB;
+  color: black;
+  margin-top: 0;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center; 
+}
+.addons img{
+  width:25px;
+  height: 25px;
+  display: inline-block;
+}
+.addons:hover{
+  background-color:#009F9D; 
+  color:white;
+}
+.cin{
+  width: 100%;
+  float: none;
+  text-align: center
+}
+.btn{
+  background-color: #009F9D;
+  color: white;
+  padding: 14px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  width: 45%;
+  border-radius:17px;
+  font-size: 16px;
+}
+
+/* style for flight details page */
+
+.note{
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 90%;
+}
+
+/* style for baggage policies page */
+.policy{
+  font-size: 20px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+.see{
+  font-size: 14px;
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.bplist{
+  background-color: #CDFFEB;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+}
+.bplist button{
+  margin-bottom: 6px;
+}
+.img-bp{
+  float: right;
+  width: 149px;
+  height: 88px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.agree{
+  font-size: 90%;
+  padding: 0 3px;
+  margin-left: 10px;
+}
+.agree input[type=submit] {
+  display:none;
+}
+.agree input[type=checkbox]:checked ~ input[type=submit] {
+  display:block;
+}
+.agree input[type="submit"]{
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  background-color: #009F9D;
+  color: white;
+  padding: 14px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  width: 45%;
+  border-radius:17px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.bkbtn{
+  float: right;
+  width:33px;
+  background: none;
+  padding-right: 55px;
+  padding-top: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.bkbtn img{
+  width:33px;
+  height:33px;
+  margin-bottom: 0;
+}
+.bkbtn p{
+  font-size: 12px;
+  color: #03353F;
+  margin-bottom: 0;
+}
+
+/* style for policies page */
+
+.bpol{
+  font-size: 13px;
+  justify-content: center;
+}
+.bag{
+  background-color: black;
+  width:100%;
+}
+.bag img{
+  width: 370px;
+  align-content: center;
+}
+.good{
+  background-size: contain;
+}
+.good img{
+  width:370px;
+}
+.tex{
+  text-align: justify;
+  padding: 5px;
+}
+
+/* style for checkin2 page */
+
+.vbp{
+  background-color: #ADABAB;
+  color: black;
+  padding: 8px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  width: 45%;
+  border-radius:17px;
+  font-size: 15px;  
+}
+
+/* style for policies2 page */
+
+.drop{
+  width: 60%;
+  padding: 10px;
+}
+.dbtn{
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* style for payment pages */
+
+.gtotal{
+  background-color: #CDFFEB;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  padding-left: 10px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: #03353F 0,1px,1px,0;
+}
+.choose{
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.paypal{
+  padding: 10px,5px;
+  margin: auto;
+}
+.visa{
+  padding: 10px;
+  width:140px;
+  height: 36px;
+}
+.pal{
+  padding: 10px;
+  width:140px;
+  height: 41px;
+}
+.cdetails{
+  background-color: #CDFFEB;
+  color: #03353F;
+}
+.cdetails div{
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.cdetails form{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 13px;
+}
+.cdetails form input{
+  width:201px;
+  height: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ccredit{
+  padding: 10px,5px;
+  margin: auto;
+}
+.ccredit tr td:last-child{
+  opacity:0.4;
+}
+.cpal{
+  padding: 10px,5px;
+  margin: auto;
+}
+.cpal tr td:first-child{
+  opacity:0.4;
+}
+.pdetails{
+  background-color: #CDFFEB;
+  color: #2699FB;
+}
+.pdetails div{
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.pdetails form{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 13px;
+}
+.pdetails form input{
+  width:201px;
+  height: 20px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pbtn{
+  background-color: #2699FB;
+  color: white;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  border-radius:17px;
+  font-size: 16px;
+}
+.success{
+  background-color: #CDFFEB;
+  margin-bottom: 225px;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: #03353F 0,1px,1px,0;
+  text-align: center;
+}
+.success h3{
+  padding-bottom: 30px;
+}
+.check{
+  width:174px;
+  height: 174px;
+}
+
+/* style for boarding pass */
+
+.bpass{
+  background-color:#288E89;
+}
+.dl{
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+
+}
+.save{
+  float: right;
+  width:49px;
+  height:49px;
+  margin-right: 12px;  
+}
+.qrc{
+  border-radius: 42px;
+  width:197px;
+  height:197px;
+}
+.qr{
+  text-align: center;
+}
+.bdet{
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 15px;
+}
+.board{
+  color:black;
+  background-color: white;
+  padding:5px;
+  border-radius: 17px;
+  font-size: 14px;
+  margin: 3px 20px;
+}
+.board table{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.note2{
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.grey{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.homebtn{
+  border-radius: 17px;
+  background-color: #ADABAB;
+}
+
+/* style add ons page */
+
+.addons1{
+  background-color: #CDFFEB;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.addons1 div p{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.addons1 div p em{
+  font-size: 15px;
+}
+.addons1 div p img{
+  width:25px;
+  height: 25px;
+  display: inline-block;
+}
+.addons1 div table{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.foodpic td img{
+  width:80px;
+  height:50px;
+  padding:2px;
+}
+.eqpic td img{
+  width:35px;
+  height:35px;
+  padding:2px;
+}
+.eqpic{
+  font-size: 12px;
+}
+.addons2{
+  background-color: #CDFFEB;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.addons2 div p{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.addons2 div p:last-child{
+  font-size: 14px;
+}
+.addons2 div p em{
+  font-size: 15px;
+}
+.addons2 div p img{
+  width:25px;
+  height: 25px;
+  display: inline-block;
+}
+.addons2 div table{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.addons2 div table:last-child td p{
+  font-size: 13.5px;
+}
+.addons3{
+  background-color: #CDFFEB;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+.addons3 div p{
+  text-align: left;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.addons3 div p em{
+  font-size: 15px;
+}
+.addons3 div p img{
+  width:25px;
+  height: 25px;
+  display: inline-block;
+}
+.addons3 div table{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* style main page */
+
+.you{
+  line-height: 75px;
+}
+.you h3{
+  font-size: 16px;
+  padding-left: 10px;
+}
+.log{
+  padding-right: 30px;
+  padding top:0;  
+  padding bottom:0;
+  float: right;
+  text-align: center;
+}
+.you div button{
+  color: #03353F;
+  background:none;
+  padding:0;
+  width: 29px;
+  height:32px;
+  float: right;
+}
+.you div button img{
+  width:29px;
+  height: 32px;
+  float: right;
+}
+.you div button p{
+  font-size: 12px;
+  text-align: center;
+}
+.main{
+  background-color: #288E89;
+  height: 89vh;
+}
+.buttons{
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 10px;
+}
+.buttons button{
+  background-color: #CDFFEB;
+  border-radius: 100%;
+  width:68px;
+  height:68px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.btn-mf img{
+  height: 43px;
+  width: 43px;
+  padding: 0;
+  margin: 0; 
+  padding-bottom: 7px; 
+}
+.btn-mf p{
+  font-size: 12px;
+}
+
+.fd1{
+  background-color: #CDFFEB;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  padding-left: 10px;
+  height: 183px;
+}
+.fd1 h3{
+  font-size: 21px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+.fd1 h4{
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.fd1 h5{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.board1{
+  color:black;
+  background-color: #CDFFEB;
+  padding:5px;
+  border-radius: 17px;
+  font-size: 14px;
+  margin: 20px 20px;
+  margin-bottom: 60px;
+}
+.board1 table{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.viewboard{
+  background-color: #ADABAB;
+}
+
+/* where to board page */
+
+.naia{
+  line-height: 78px;
+  margin-left: 5px;
+  font-size: 18px;
+  color:#03353F;
+}
+.bmap{
+  background-color: #288E89;
+  color: white;
+  height: 88vh;
+}
+.bmap div p{
+  padding-top: 10px;
+  margin-left: 10px;
+}
+.lvl3 img{
+  width:100%;
+  margin-top: 10px;
+}
+.dir{
+  margin-top: 20px;
+}
+.dir img{
+  padding-right: 30px;
+  padding-top: 30px;
+  float: right;
+  width: 59px;
+  height: 59px;
+}
+.dir ol li{
+  padding: 2px;
+  
+}
+
+  /* Style for signup page */
+  
+  .signup1{
+    background-color: #009F9D;
+    color: white;
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+  .su-btn button{
+    background-color: #ADABAB;
+    color:white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    border-radius:17px;
+    font-size: 15px;
+  }
+
+
+
+
+  /* -----------------------Style for DESKTOP VIEW---------------------- */
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+  /* Style for LOGIN page */
+
+.index{
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index header{
+  display:block;
+}
+.index1{
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  margin-bottom: 60px;
+  height: 140px;
+}
+.index1 img{
+  width:8%;
+  margin: 5px;
+}
+.index1 h1{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 0;
+  font-size: 70px;
+  padding-top: 0;
+}
+.navbar{
+  list-style: none;
+  float: right;
+  display: inline-block;
+  padding: 70px;
+}
+.navhome, .navbook, .navabout{
+  text-decoration: none;
+  color: white;
+}
+.navhome:hover, .navbook:hover, .navabout:hover{
+  color:aqua;
+}
+.navbar li{
+  display: inline;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+}
+.index2{
+  color: white;
+  padding-left: 30px;
+  font-size: 22px;  
+}
+.index footer{
+  display:block;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+.login {
+  background-color: none;
+  margin-left: 0;
+  margin-right: 25%;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+}
+.login form{
+  display: inline-block;
+}
+input[type=text], input[type=password] {
+width: 90%;
+padding: 12px 17px;
+margin: 8px auto;
+display: inline-block;
+border: 1px solid white;
+box-sizing: border-box;
+}
+.imglogo {
+display: none;
+}
+.container {
+padding:20px;
+padding-bottom: 1px;
+text-align: center;
+}
+.psw {
+float: right;
+padding-right: 30px;
+text-decoration: none;
+color: white;
+}
+.psw:hover{
+  color: #91DABD;
+}
+.signup {
+float: left;
+padding-left: 40px;
+text-decoration: none;
+color: white;
+}
+.signup:hover{
+  color: #91DABD;
+}
+.social{
+  text-align: center;
+  display:block;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+}
+.social ul{
+  list-style: none;
+  display: inline-block;
+}
+.social ul li{
+  display: inline;
+}
+.social ul li img{
+  margin: 15px;
+  width:50px;
+  height: 50px;
+}
+.come{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.come h1{
+  font-size: 50px;
+  padding-left: 900px;
+}
+
+/* style for myflights page */
+
+.home{
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home header{
+  display:block;
+}
+.home1{
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  margin-bottom: 20px;
+  height: 140px;
+}
+.home1 img{
+  width:8%;
+  margin: 5px;
+}
+.home1 h1{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 0;
+  font-size: 70px;
+  padding-top: 0;
+}
+.home footer{
+  display:block;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+.home main{
+  background-color: none;
+  margin-left: 3%;
+  margin-right: 25%;
+  width: 50%;
+  height: 80%;
+}
+.myflights{
+  line-height: 78px;
+  margin-left: 5px;
+  font-size: 25px;
+  color:white;
+}
+
+/* style for checkin page */
+
+.fd h3, h4, h5{
+  padding-left: 200px;
+}
+.place{
+  text-align:center;
+}
+.heading{
+  color: white; 
+}
+.booking{
+  border: 2px solid white;
+  color: white;
+}
+.booking tr td{
+  border: 2px solid white;
+  color: white;
+}
+.passenger{
+  color: white;
+  padding-left: 0; 
+}
+.addons:hover{
+  opacity: 0.7;
+}
+
+/* style for flight details page */
+
+.note{
+  color:white;
+}
+
+/* style for baggage policies page */
+
+.img-bp{
+  width: 200px;
+  height: 100px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.policy{
+  padding-left: 50px;
+}
+.see{
+  margin-left: 70px;
+}
+.agree{
+  font-size: 100%;
+  color: white;
+}
+
+.bpol{
+  font-size: 16px;
+  color:white;
+}
+.bag{
+  text-align: center;
+  opacity: 0.75;
+  padding-bottom: 10px; 
+}
+.bag img{
+  width: 80%;
+  align-content: center;
+}
+.good img{
+  width:100%;
+}
+.tex{
+  text-align: justify;
+  padding: 10px;
+}
+
+/* style main page */
+
+.you{
+  color: white; 
+}
+.you h3{
+  font-size: 20px;
+} 
+.main{
+  background: none;
+  margin-bottom: 0;
+}
+.buttons button{
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.fd1{
+  opacity: 0.7;
+  border-radius: 17px;
+}
+.fd1 h3, h4, h5{
+  padding-left: 200px;
+} 
+.board1{
+  opacity: .7;
+  border-radius: 17px;
+  font-size: 16px;
+  margin: 20px 20px;
+  margin-bottom: 20px;
+}
+.viewboard{
+  border-radius: 17px;
+  margin-bottom: 0;
+}
+
+/* where to board page */
+
+.naia{
+  line-height: 78px;
+  margin-left: 5px;
+  font-size: 18px;
+  color:white;
+}
+.bmap{
+  background: none;
+  color: white;
+  height: 100%;
+}
+.dir img{
+  padding-right: 40px;
+  width: 70px;
+  height: 70px;
+}
+
+/* style for boarding pass */
+
+.bpass{
+  opacity:0.8;
+  border-radius: 15px;
+}
+
+  /* Style for signup page */
+  
+  .signup1{
+    opacity:0.8;
+    border-radius: 15px;
+  }
+  .su-btn button:hover{
+    background-color: #03353F;
+  }
+
+  /* style add ons page */
+
+.addons1 div table{
+  margin-left: 20%;
+}
+.addons2 div table{
+  margin-left: 20%;
+}
+.addons3 div table{
+  margin-left: 20%;
+}
+.grandtotal{
+  color: white;
+  font-size: 20px;
+}
+/* style for payment pages */
+
+.gtotal{
+  background: none;
+  color: white;
+  margin-bottom: 30px;
+  margin-left: 190px;
+}
+.choose{
+  text-align: left;
+  color: white;
+  margin-left: 0;
+}
+.paypal{
+  color: white;
+  margin-bottom: 20%;
+}
+.cdetails{
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.cdetails div{
+  margin-left: 20%;
+  margin-right: 25%;
+  font-size: 16px;
+}
+.cdetails form{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 16px;
+}
+.ccredit{
+  color:white;
+}
+.cpal{
+  color: white;
+}
+.pdetails{
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.pdetails div{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 16px;
+}
+.pdetails form{
+  margin-left: 30%;
+  margin-right: 25%;
+  font-size: 16px;
+}
+.pbtn{
+  margin-left: 20px;
+}
+.success{
+  margin-bottom: 25px;
+  margin-top: 50px;
+  border-radius: 15px;
+  opacity:0.7;
+}
+
+
+
+
+}
+
+
